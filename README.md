@@ -2,8 +2,8 @@
 
 Android Application
 
-This application allows a user to create an account or log in to this attendance system. 
-Once they have created the account the user can then log in using those details or via the biometrics registered to the phone.
+This application allows users to create an account or log in to this attendance system. 
+Once they have created the account the user can log in using those details or via the biometrics registered to the phone.
 The user is then brought to the check-in screen where they can check in and out. Once the user checks out the time and date will be displayed.
 
 ![image](https://github.com/HaldenLF/Secure-Attendance-Mangement-System/assets/165461117/8cfa8a79-1682-4874-914a-2284fd734135)
