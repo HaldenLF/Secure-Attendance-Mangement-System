@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <CheckBox
+        android:id="@+id/checkinBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:text="Check in" />
+
+    <CheckBox
+        android:id="@+id/checkoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:text="Check out"
+        android:layout_below= "@+id/checkinBtn"/>
+
+    <Button
+        android:id="@+id/checkAttendanceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Attendence"
+        android:layout_below= "@+id/checkoutBtn"/>
+
+    <TextView
+        android:id="@+id/attendanceView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:layout_below="@+id/checkAttendanceBtn"/>
+
+
+</RelativeLayout>
